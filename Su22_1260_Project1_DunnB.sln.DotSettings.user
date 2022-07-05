@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9b46a69e_002Dd54c_002D419f_002D8e34_002Da07a68545a52/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ABookCanHaveATitle" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::05D0B520-1CFF-4EE4-8966-F0EDC0029C73::net6.0::LibraryTesting.ABook&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::05D0B520-1CFF-4EE4-8966-F0EDC0029C73::net6.0::LibraryTesting.Tax&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

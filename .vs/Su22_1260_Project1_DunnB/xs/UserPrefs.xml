@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{767D7E0F-70CD-4577-A2C6-B54950B22E5A}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LibraryApp/Program.cs">
+    <Files>
+      <File FileName="LibraryApp/Program.cs" Line="15" Column="2" />
+      <File FileName="LibraryTesting/LibraryTesting.cs" Line="5" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Su22_1260_Project1_DunnB" expanded="True">
+            <Node name="LibraryApp" expanded="True" />
+            <Node name="LibraryTesting" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Su22_1260_Project1_DunnB" expanded="True" selected="True">
+            <Node name="LibraryTesting" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.LibraryApp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
