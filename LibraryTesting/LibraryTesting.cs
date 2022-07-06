@@ -26,7 +26,7 @@ public class ABook
         //Arrange
         Book book = new Book();
         book.Price = 14.99;
-        TaxRate tax = new TaxRate();
+        TaxRate tax = new TaxRate();        //TaxRate is defined as 10% by default in the tax library
         tax.SetTaxRate(0.05);
         //Act
         double result = (book.Price * tax.TaxRatePropety);
@@ -40,7 +40,7 @@ public class ABook
         //Arrange
         Book book = new Book();
         book.Price = 14.99;
-        book.PriceWithTax(new TaxRate());
+        book.PriceWithTax(new TaxRate());   //TaxRate is defined as 10% by default in the tax library
         //Act
         double result = book.PriceWithTax(new TaxRate());
         //Assert
