@@ -42,10 +42,15 @@ public static class Program
             Console.WriteLine("\n");
                 
             Console.WriteLine($"Total Cost: {(firstBook.Price + secondBook.Price + thirdBook.Price):C}");
+            
             var totalTax = currentRate.TaxRatePropety * (firstBook.Price + secondBook.Price + thirdBook.Price);
+            
             Console.WriteLine($"Total tax: {totalTax:C}");
+            
             var totalCostWithTax = firstBook.PriceWithTax(currentRate) + secondBook.PriceWithTax(currentRate) + thirdBook.PriceWithTax(currentRate);
+            
             Console.WriteLine($"Total cost + tax: {totalCostWithTax:C}");
+            
             ShowHeading("Press enter to go back to the main menu.", '-');
             if (Console.ReadKey().Key == ConsoleKey.Enter)
             {
@@ -60,6 +65,7 @@ public static class Program
         {
             Console.WriteLine("\n");
             ShowHeading("Thank you for using the Library Book Application", '-');
+            
             Environment.Exit(0);
         }
 
@@ -68,6 +74,7 @@ public static class Program
         {
             Console.Clear();
             Console.WriteLine("\nPlease enter the title of the book: ");
+            
             book.Title = Console.ReadLine() ?? throw new InvalidOperationException();
                 
             while (book.Title == "")
@@ -79,6 +86,7 @@ public static class Program
             }
 
             Console.WriteLine("Thank you, please enter the price of the book: ");
+            
             book.Price = Convert.ToDouble(Console.ReadLine());
             while (book.Price is < 0)
             {
